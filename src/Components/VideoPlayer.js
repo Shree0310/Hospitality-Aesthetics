@@ -16,8 +16,9 @@ const VideoPlayer = () =>{
             <div className="absolute  inset-0">
                 <div className=" flex flex-col top-4 right-4 items-end ">
                     <div className="pt-20 pr-48">
-                        <p className="text-white h-8 w-72  pb-28 block">
-                            The Aesthetics is a series of laid-back apartment-hotels. Settle in, find focus, be yourself. Every stay has a story.
+                        <p className="text-white h-8 w-72  pb-28 text-left">
+                            The Aesthetics is a series of laid-back apartment-hotels. 
+                            Settle in, find focus, be yourself. Every stay has a story.
                         </p>
                     </div>
                     

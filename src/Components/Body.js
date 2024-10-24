@@ -1,9 +1,16 @@
+import Locations from "./Locations";
 import VideoPlayer from "./VideoPlayer";
 
 const Body = ()=>{
     return (
         <div>
-            <VideoPlayer/>
+            <div>
+                <VideoPlayer/>
+            </div>
+            <div>
+                <Locations/>
+            </div>
+            
         </div>
     )
 }

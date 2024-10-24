@@ -7,7 +7,12 @@ module.exports = {
     extend: {
       colors:{
         navColor: '#CCCCA3',
+        locationsColor: '#E5E0DB'
       },
+      fontFamily:{
+        PPFragment: ['PP Fragment', 'monospace'],
+        PPMori: ['PP Mori', 'monospace']
+      }
     },
   },
   plugins: [],
