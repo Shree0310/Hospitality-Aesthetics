@@ -7,7 +7,7 @@ const Body = ()=>{
             <div>
                 <VideoPlayer/>
             </div>
-            <div>
+            <div className="bg-locationsColor">
                 <Locations/>
             </div>
             
