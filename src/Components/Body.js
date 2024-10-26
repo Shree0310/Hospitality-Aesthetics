@@ -1,4 +1,5 @@
 import Locations from "./Locations";
+import Stay from "./Stay";
 import VideoPlayer from "./VideoPlayer";
 
 const Body = ()=>{
@@ -9,6 +10,9 @@ const Body = ()=>{
             </div>
             <div className="bg-locationsColor">
                 <Locations/>
+            </div>
+            <div>
+                <Stay/>
             </div>
             
         </div>

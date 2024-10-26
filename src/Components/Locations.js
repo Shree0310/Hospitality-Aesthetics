@@ -29,13 +29,7 @@ const Locations = ()=>{
                 </div>
                 <div className="-mt-[250px] pl-24 overflow-x-auto bg-locationsColor">
                     <div className="flex gap-8 pb-8">                   
-                        {/* <img className="flex-shrink-0 w-[300px] h-[450px] object-cover ml-24" src={Amsterdam} alt="Amsterdam"/>
-                        <img className="flex-shrink-0 w-[300px] h-[450px] object-cover" src={Dublin} alt="Dublin"/>
-                        <img className="flex-shrink-0 w-[300px] h-[450px] object-cover" src={lisbon} alt="lisbon"/>
-                        <img className="flex-shrink-0 w-[300px] h-[450px] object-cover" src={london} alt="london"/>
-                        <img className="flex-shrink-0 w-[300px] h-[450px] object-cover" src={Amsterdam} alt="Amsterdam"/>
-                        <img className="flex-shrink-0 w-[300px] h-[450px] object-cover" src={Amsterdam} alt="Amsterdam"/> */}
-                        <ImageSwap
+                       <ImageSwap
                         defaultImage={Amsterdam}
                         hoverImage={AmsterdamRoom}
                         alt="Amsterdam location"
