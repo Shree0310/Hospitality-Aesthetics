@@ -1,4 +1,5 @@
 import Locations from "./Locations";
+import LongStay from "./LongStay";
 import Stay from "./Stay";
 import VideoPlayer from "./VideoPlayer";
 
@@ -13,6 +14,9 @@ const Body = ()=>{
             </div>
             <div>
                 <Stay/>
+            </div>
+            <div>
+                <LongStay/>
             </div>
             
         </div>

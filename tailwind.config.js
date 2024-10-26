@@ -8,7 +8,8 @@ module.exports = {
       colors:{
         navColor: '#CCCCA3',
         locationsColor: '#E5E0DB',
-        stayColor: '#DE815D'
+        stayColor: '#DE815D',
+        longStayColor:'#73808F'
       },
       fontFamily:{
         PPFragment: ['PP Fragment', 'monospace'],
