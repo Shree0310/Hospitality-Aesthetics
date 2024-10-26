@@ -36,7 +36,7 @@ const StoryTime =() =>{
         <div 
         ref={sectionRef}
         className="flex bg-storyColor">
-            <form className='flex flex-col pl-[300px] pr-40 text-left gap-y-2 pt-52'>
+            <form className='flex flex-col pl-[300px] pr-40 text-left gap-y-2 py-52'>
                 <h1 className='font-PPFragment text-3xl pb-8'>STORY TIME</h1>
                 <p className='font-PPMori text-lg pb-8'>The July is where great stories begin. 
                 Whether you’re staying with us or signed up to our newsletter…
