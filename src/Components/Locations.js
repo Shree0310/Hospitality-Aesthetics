@@ -48,7 +48,7 @@ const Locations = ()=>{
                         className="flex-shrink-0"/>
 
                         <ImageSwap
-                        defaultImage={lisbon}
+                        defaultImage={Amsterdam}
                         hoverImage={Lisbon2}
                         alt="Amsterdam location"
                         className="flex-shrink-0"/> 
@@ -57,7 +57,13 @@ const Locations = ()=>{
                         defaultImage={lisbon}
                         hoverImage={London2}
                         alt="Amsterdam location"
-                        className="flex-shrink-0"/> 
+                        className="flex-shrink-0"/>
+
+                        <ImageSwap
+                        defaultImage={Dublin}
+                        hoverImage={AmsterdamRoom}
+                        alt="Amsterdam location"
+                        className="flex-shrink-0"/>  
                     </div>
                 </div>
             {/* </div> */}

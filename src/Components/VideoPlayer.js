@@ -1,14 +1,31 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import MainVideo from "./../Assets/Videos/MainVideo.mp4"
 
 const VideoPlayer = () =>{
     const videoRef = useRef(null);
 
+    useEffect(()=>{
+        //Play the video whenever the component mounts
+        if(videoRef.current){
+            const playVideo = async ()=>{
+                try{
+                    await videoRef.current.play();
+                }
+                catch(err){
+                    console.log("Autoplay of the video failed because"+ err);
+                }
+            };
+            playVideo();
+        }
+    })
+
     return (
         <div className="relative">
             <video 
-                controls 
-                autoPlay 
+                autoPlay
+                muted
+                playsInline
+                loop 
                 className="w-full"
                 ref={videoRef}>
                 <source src={MainVideo} type="video/mp4"/>
@@ -28,8 +45,8 @@ const VideoPlayer = () =>{
                         </button>
                     </div>
                 </div>                    
-                <div className="flex flex-col justify-center items-center">  
-                    <h1 className="text-navColor text-[150px] z-10 font-normal">
+                <div className="flex flex-col justify-center items-center pt-64">  
+                    <h1 className="text-white text-[150px] z-10 font-normal">
                         The Aesthetics
                     </h1>               
                 </div>

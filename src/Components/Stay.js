@@ -19,7 +19,7 @@ const Stay = () => {
             },
             {
                 //section will be visible when it is 20% visible
-                threshold: 0.3, 
+                threshold: 0.2, 
                 //Adds a margin to trigger slightly before the section comes to view
                 rootMargin: "20px"
             }

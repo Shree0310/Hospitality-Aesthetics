@@ -1,6 +1,7 @@
 import Locations from "./Locations";
 import LongStay from "./LongStay";
 import Stay from "./Stay";
+import StoryTime from "./StoryTime";
 import VideoPlayer from "./VideoPlayer";
 
 const Body = ()=>{
@@ -17,6 +18,9 @@ const Body = ()=>{
             </div>
             <div>
                 <LongStay/>
+            </div>
+            <div>
+                <StoryTime/>
             </div>
             
         </div>
